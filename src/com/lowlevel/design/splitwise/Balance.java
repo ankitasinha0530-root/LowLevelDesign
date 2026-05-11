@@ -1,4 +1,4 @@
-package LowLevelDesign.DesignSplitwise;
+package com.lowlevel.design.splitwise;
 
 public class Balance {
 

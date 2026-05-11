@@ -1,23 +1,23 @@
-package LowLevelDesign.DesignSplitwise.Expense;
+package com.lowlevel.design.splitwise.Expense;
 
-import LowLevelDesign.DesignSplitwise.BalanceSheetController;
-import LowLevelDesign.DesignSplitwise.Expense.Split.ExpenseSplit;
-import LowLevelDesign.DesignSplitwise.Expense.Split.Split;
-import LowLevelDesign.DesignSplitwise.User.User;
+
+import com.lowlevel.design.splitwise.Expense.Split.ExpenseSplit;
+import com.lowlevel.design.splitwise.Expense.Split.Split;
 
 import java.util.List;
 
 public class ExpenseController {
 
-    BalanceSheetController balanceSheetController;
+    LowLevelDesign.DesignSplitwise.BalanceSheetController balanceSheetController;
     public ExpenseController(){
-        balanceSheetController = new BalanceSheetController();
+        balanceSheetController = new LowLevelDesign.DesignSplitwise.BalanceSheetController();
     }
 
     public Expense createExpense(String expenseId, String description, double expenseAmount,
                                  List<Split> splitDetails, ExpenseSplitType splitType, User paidByUser){
 
         ExpenseSplit expenseSplit = SplitFactory.getSplitObject(splitType);
+        assert expenseSplit != null;
         expenseSplit.validateSplitRequest(splitDetails, expenseAmount);
 
         Expense expense = new Expense(expenseId, expenseAmount, description, paidByUser, splitType, splitDetails);

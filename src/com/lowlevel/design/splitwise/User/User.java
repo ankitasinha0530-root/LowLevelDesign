@@ -1,5 +1,4 @@
-package LowLevelDesign.DesignSplitwise.User;
-import LowLevelDesign.DesignSplitwise.UserExpenseBalanceSheet;
+package com.lowlevel.design.splitwise.User;
 
 public class User {
 

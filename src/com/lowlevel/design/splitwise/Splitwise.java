@@ -1,11 +1,5 @@
-package LowLevelDesign.DesignSplitwise;
+package com.lowlevel.design.splitwise;
 
-import LowLevelDesign.DesignSplitwise.Expense.ExpenseSplitType;
-import LowLevelDesign.DesignSplitwise.Expense.Split.Split;
-import LowLevelDesign.DesignSplitwise.Group.Group;
-import LowLevelDesign.DesignSplitwise.Group.GroupController;
-import LowLevelDesign.DesignSplitwise.User.User;
-import LowLevelDesign.DesignSplitwise.User.UserController;
 
 import java.util.ArrayList;
 import java.util.List;

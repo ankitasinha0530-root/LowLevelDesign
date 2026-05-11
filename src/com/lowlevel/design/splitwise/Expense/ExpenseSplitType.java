@@ -1,4 +1,4 @@
-package LowLevelDesign.DesignSplitwise.Expense;
+package com.lowlevel.design.splitwise.Expense;
 
 public enum ExpenseSplitType {
     EQUAL,

@@ -1,6 +1,6 @@
-package LowLevelDesign.DesignSplitwise.Expense.Split;
+package com.lowlevel.design.splitwise.Expense.Split;
 
-import LowLevelDesign.DesignSplitwise.User.User;
+import com.lowlevel.design.splitwise.User.User;
 
 public class Split {
 

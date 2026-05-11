@@ -1,4 +1,4 @@
-package LowLevelDesign.DesignSplitwise.Expense;
+package com.lowlevel.design.splitwise.Expense;
 
 import LowLevelDesign.DesignSplitwise.Expense.Split.Split;
 import LowLevelDesign.DesignSplitwise.User.User;

@@ -1,6 +1,6 @@
-package LowLevelDesign.DesignSplitwise.Group;
+package com.lowlevel.design.splitwise.Group;
 
-import LowLevelDesign.DesignSplitwise.User.User;
+import com.lowlevel.design.splitwise.User.User;
 
 import java.util.ArrayList;
 import java.util.List;
